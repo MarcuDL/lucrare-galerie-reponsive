@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Galerie Reponsive</title>
+
+        <style>
+            
+           
+            .container{
+                width: 90%;
+                max-width: 800px;
+                margin:  auto;
+                display: grid;
+               
+                
+            }
+
+            .row {
+                display: flex;
+                flex-flow: row wrap;
+                
+                
+            }
+
+
+            .column {
+                
+                box-sizing: border-box;
+                padding: 10px ;
+                margin: 10px 10px 10px 10px;
+                
+                
+                
+            }
+
+            .box {
+                height: 80px;
+                width: 120px;
+                background-color: #0d8cd5;
+                text-align: center;  
+            }
+
+          
+            @media screen and (max-width: 1024px) {
+                .column {
+                    width: 30%;
+                }
+            }
+
+            @media screen and (max-width: 768px) {
+                .column {
+                    width: 50%;
+                }
+            }
+
+            @media screen and (max-width: 414px) {
+                .column {
+                    width: 100%;
+                }
+            }
+
+     
+            
+        </style>
+        
+    </head>
+    
+    <body>
+
+        <div class="container">
+        
+            <div class="row">
+                <h2>Gallery Heading </h2>
+            </div>
+
+            <div class="row">
+
+                <div class="column">
+                    <div class="box"> <img src="image/placeholder-image.png" width="110" height="70" alt="Image Title" >Image Title</div>
+                </div>
+                <div class="column">
+                    <div class="box"><img src="image/placeholder-image.png" width="110" height="70" alt="Image Title">Image Title</div>
+                </div>
+                <div class="column">
+                    <div class="box"><img src="image/placeholder-image.png" width="110" height="70" alt="Image Title">Image Title</div>
+                </div>
+                <div class="column">
+                    <div class="box"><img src="image/placeholder-image.png" width="110" height="70" alt="Image Title">Image Title</div>
+                </div>
+                <div class="column">
+                    <div class="box"><img src="image/placeholder-image.png" width="110" height="70" alt="Image Title">Image Title</div>
+                </div>
+                <div class="column">
+                    <div class="box"><img src="image/placeholder-image.png" width="110" height="70" alt="Image Title">Image Title</div>
+                </div>
+                <div class="column">
+                    <div class="box"><img src="image/placeholder-image.png" width="110" height="70" alt="Image Title">Image Title</div>
+                </div>
+                <div class="column">
+                    <div class="box"><img src="image/placeholder-image.png" width="110" height="70" alt="Image Title">Image Title</div>
+                </div>
+                <div class="column">
+                    <div class="box"><img src="image/placeholder-image.png" width="110" height="70" alt="Image Title">Image Title</div>
+                </div>
+                <div class="column">
+                    <div class="box"><img src="image/placeholder-image.png" width="110" height="70" alt="Image Title">Image Title</div>
+                </div>
+              
+
+                <p> Lore ipsum dolor sit amet, consectetur adipiscing elit. Cras a lacinia nisi, nec tristique sem. Cras id tellus ac mauris posuere varius. 
+                    Pellentesque vel mi justo. Aenean malesuada purus eu lacinia finibus.
+                    Praesent commodo euismod odio. Eu pharetra nulla dignissim nec. Ut id augue. Duis ultricies euismod purus, ut lobortis tortor sempre a. Nam eleifend accumsan elit, in elementum lacus. Nunc varius imperdiet nisi, eget pretium augue molestie a. Nullam ut malesuada enim. Integer non velit fringilla. Porta ex vitae, porttitor velit. 
+                    Ut luctus lacinia libero a scelerisgue. Ut ullamcorper arcu at mauris ullamcorper tempor.
+                </p>
+            </div>
+      
+        </div>
+    </body>
+</html>
